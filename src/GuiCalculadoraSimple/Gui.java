@@ -86,6 +86,7 @@ public class Gui extends JFrame{
 		nombrePlugs=calculadora.getPluginsName();
 		
 		//ComboBoxs
+		//Cambiar comboBox por dos text field con parseInt
 		JComboBox<Integer> opcionesParam1 = new JComboBox<Integer>();
 		opcionesParam1.setBounds(33, 70, 60, 22);
 		panelCalculadora.add(opcionesParam1);
